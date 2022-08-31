@@ -17,18 +17,18 @@ void reverse(sqlist &s){
 
 int main()
 {
-	sqlist s;
+	sqlist L;
 	printf("原来的数组是:\n");
-	for(int i =0;i<s.length;i++){
-		printf("%d ",s.a[i]);
+	for(int i =0;i<L.length;i++){
+		printf("%d ",L.a[i]);
 	}
 	printf("\n");
 	
-	reverse(s);//数组逆置
+	reverse(L);//数组逆置
 	
 	printf("现在的数组是:\n");
-	for(int i =0;i<s.length;i++){
-		printf("%d ",s.a[i]);
+	for(int i =0;i<L.length;i++){
+		printf("%d ",L.a[i]);
 	}
 		
 	
